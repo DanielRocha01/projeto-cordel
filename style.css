@@ -17,7 +17,7 @@ body,html {
 p {
     margin-top: 30px;
     line-height: 2em;
-    font-size: 3vw;
+    font-size: 1.6em;
 }
 header {
     height: 300px;
@@ -26,13 +26,13 @@ header {
     text-align: center;
 }
 header h1 {
-    font-size: 5vw;
-    padding-top: 110px;
+    font-size: 3em;
+    padding-top: 70px;
     padding-bottom: 10px;
     font-variant: small-caps;
 }
 header p {
-    font-size: 3vw;
+    font-size: 1.8em;
 }
 header a,section a,footer a {
     color: #ffffff;
@@ -84,4 +84,48 @@ footer {
 footer p {
     margin: 0;
     padding: 5px;
+}
+@media screen and (max-width: 476px) {
+  header {
+    height: 200px;
+  }
+  header h1 {
+    font-size: 2em;
+    padding-top: 50px;
+  }
+  p {
+    font-size: 1.15em;
+  }
+  header p {
+    font-size: 1.6em;
+  }
+  section.normal {
+    padding-top: 13px;
+  }
+  section.imagem p {
+    width: 250px;
+  }
+  footer {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 699px) and (min-width: 477px) {
+  header {
+    height: 220px;
+  }
+  header h1 {
+    padding-top: 30px;
+  }
+  p {
+    font-size: 1.4em;
+  }
+  header p {
+    font-size: 1.8em;
+  }
+  section.normal {
+    padding-top: 10px;
+  }
+  section.normal p {
+    margin-top: 10px;
+  }
 }
